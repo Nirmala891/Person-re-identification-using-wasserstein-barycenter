@@ -14,7 +14,7 @@ from msda.utils import semisupervised_penalty
 
 from msda.ot_gpu import sinkhorn_gpu
 
-
+# defenition for sinkhorn function
 def sinkhorn_barycenter(mu_s, Xs, Xbar, ys=None, ybar=None, reg=1e-3, b=None, weights=None,
                         method="sinkhorn", norm="max", metric="sqeuclidean", numItermax=100,
                         numInnerItermax=1000, stopThr=1e-4,
